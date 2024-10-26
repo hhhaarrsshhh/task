@@ -5,7 +5,7 @@ import im3 from '/task2/task/src/assets/Rectangle.png';
 const Img = () => {
   return (
     <div className='col position-relative text-center'>
-      {/* background */}
+                                                    {/* background */}
       <img 
         src={im3} 
         alt="Background Description" 
@@ -19,7 +19,7 @@ const Img = () => {
         }}
       />
       
-      {/* two image*/}
+                                                       {/* two image*/}
       <div className="d-flex flex-column align-items-center mt-5" style={{marginLeft:"250px"}}>
         <img 
           src={im1} 

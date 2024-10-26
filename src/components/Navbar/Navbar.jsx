@@ -11,8 +11,8 @@ const Navbar = () => {
                             className="img-fluid"
                             alt="Brand"
                             style={{
-                                maxWidth: '150px', // Set a maximum width for the image
-                                height: 'auto', // Maintain aspect ratio
+                                maxWidth: '150px', 
+                                height: 'auto', 
                             }}
                         />
                     </a>
@@ -47,13 +47,13 @@ const Navbar = () => {
                                 type="button"
                                 className="btn btn-lg me-3"
                                 style={{
-                                    backgroundColor: 'rgb(68, 125, 188)', // Custom background color
-                                    borderColor: 'rgb(68, 125, 188)',     // Ensures the border color matches the background
+                                    backgroundColor: 'rgb(68, 125, 188)', 
+                                    borderColor: 'rgb(68, 125, 188)',    
                                     borderTopLeftRadius: '10px',
                                     borderTopRightRadius: '10px',
                                     borderBottomLeftRadius: '10px',
                                     borderBottomRightRadius: '0px',
-                                    color: '#fff', // Optional: Change text color for better contrast
+                                    color: '#fff', 
                                 }}
                             >
                                 Get started
