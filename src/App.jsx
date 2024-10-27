@@ -6,7 +6,8 @@ import Logo from './components/Logos/Logo';
 import Section2 from './components/Section2/Section2';
 import Section3 from './components/Section3/Section3';
 import Section3_2 from './components/Section3/Section3_2';
-
+import Section4 from './components/Section4/Section4';
+import Contact from './components/ContactForm/Contact';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
     <Section2/>
     <Section3/>
     <Section3_2/>
+    <Section4/>
+    <Contact/>
     <FooterDesc/>
     <Footer/>
 
