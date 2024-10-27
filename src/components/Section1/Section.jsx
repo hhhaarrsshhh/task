@@ -1,4 +1,4 @@
-import girl from '/task2/task/src/assets/Girl.png';
+import girl from '../../assets/Girl.png' 
 
 const Section = () => {
   return (

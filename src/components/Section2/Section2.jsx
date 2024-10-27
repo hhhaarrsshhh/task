@@ -1,5 +1,4 @@
-import Img from '../Temp/Img';
-
+import Img from '../Temp/Img'
 const Section2 = () => {
   return (
     <>

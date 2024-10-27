@@ -1,6 +1,7 @@
-import im1 from '/task2/task/src/assets/eleganza.f380c3061daff31748a7 2.png';
-import im2 from '/task2/task/src/assets/gr.png';
-import im3 from '/task2/task/src/assets/Rectangle.png';
+import im1 from '../../assets/eleganza.f380c3061daff31748a7 2.png'
+import im2 from '../../assets/gr.png'
+import im3 from '../../assets/Rectangle.png'
+
 
 const Img = () => {
   return (
@@ -13,7 +14,7 @@ const Img = () => {
           width: '30%', 
           position: 'absolute',
           zIndex: '-1',  
-          opacity: '1.5',  
+          opacity: '2',  
           maxWidth: '400px', 
           minWidth: '240px'   
         }}

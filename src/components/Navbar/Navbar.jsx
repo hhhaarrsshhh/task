@@ -1,4 +1,4 @@
-import img1 from '/task2/task/src/assets/track.png';
+import img1 from '../../assets/track.png'
 
 const Navbar = () => {
     return (

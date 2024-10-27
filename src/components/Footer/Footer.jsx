@@ -1,4 +1,4 @@
-import footerImg from '/task2/task/src/assets/trackfoot.png';
+import footerImg from '../../assets/trackfoot.png'
 
 const Footer = () => {
   return (

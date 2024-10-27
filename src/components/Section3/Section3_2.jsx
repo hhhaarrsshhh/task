@@ -18,25 +18,26 @@ const Section3 = () => {
         <h1 className="text-center gradient-text">What makes our tool stand out!</h1>
         <div className="row gx-5 align-items-center mt-5">
           <div className="col-md-6 col-12">
-          <div className="">
-              <img 
-                src={img1} 
-                className="img-fluid" 
-                alt="Description" 
-                style={{ minHeight: '250px', maxHeight: '400px', width: '100%' }}
-              />
-          </div>
-          </div>
-
-          <div className="col-md-6 col-12 mt-4">
-            <div className="gradient-text ">
-              Dashboard Reports
+            <div className="mt-4">
+              <div className="gradient-text">
+              Create tickets automatically with AI              </div>
+              <h5 style={{ color: 'rgb(68, 125, 188)' }}>
+              Our advanced AI algorithms analyze
+ incoming requests, extract key information,
+ and automatically create comprehensive
+ ticket descriptions. This not only saves time for
+ your support team but also ensures accuracy 
+and consistency in ticket creation.
+              </h5>
             </div>
-            <h5 style={{ color: 'rgb(68, 125, 188)' }}>
-              Visualize your support operations in real-time.
-              Track ticket status, analyze performance, and 
-              identify trends with our intuitive dashboard.
-            </h5>
+          </div>
+          <div className="col-md-6 col-12 mt-4">
+            <img 
+              src={img1} 
+              className="img-fluid" 
+              alt="Dashboard Reports" 
+              style={{ minHeight: '250px', maxHeight: '400px', width: '100%' }}
+            />
           </div>
         </div>
       </div>
