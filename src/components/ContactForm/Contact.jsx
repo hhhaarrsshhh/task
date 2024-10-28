@@ -6,7 +6,6 @@ const Section3 = () => {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
-  alert(`Form Submitted!\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
 
 
   const handleSubmit = (e) => {
