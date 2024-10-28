@@ -15,11 +15,11 @@ const Section3 = () => {
         `}
       </style>
       <div className="container px-4" style={{ marginTop: '60px' }}>
-        <h1 className="text-center gradient-text">What makes our tool stand out!</h1>
+        <h1 className="text-md-center text-start gradient-text">What makes our tool stand out!</h1>
         <div className="row gx-5 align-items-center mt-5">
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12 order-md-1 order-2">
             <div className="mt-4">
-              <div className="gradient-text">
+              <div className='fw-medium' style={{fontSize:"27px",color:"rgb(68, 125, 188)"}}>
               Create tickets automatically with AI              </div>
               <h5 style={{ color: 'rgb(68, 125, 188)' }}>
               Our advanced AI algorithms analyze
@@ -31,7 +31,7 @@ and consistency in ticket creation.
               </h5>
             </div>
           </div>
-          <div className="col-md-6 col-12 mt-4">
+          <div className="col-md-6 col-12 mt-4 order-md-2 order-1">
             <img 
               src={img1} 
               className="img-fluid" 

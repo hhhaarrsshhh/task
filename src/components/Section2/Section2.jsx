@@ -15,7 +15,7 @@ const Section2 = () => {
       </style>
       
       <div className="container px-4" style={{ marginTop: '60px' }}>
-        <h1 className="text-center gradient-text " style={{fontWeight:"bold"}}>Our Customer Success Stories</h1>
+        <h1 className="text-md-center text-start gradient-text " style={{fontWeight:"bold"}}>Our Customer Success Stories</h1>
         
         <div className="row gx-5 align-items-center">
           

@@ -15,7 +15,7 @@ const Section3 = () => {
         `}
       </style>
       <div className="container px-4" style={{ marginTop: '60px' }}>
-        <h1 className="text-center gradient-text">What makes our tool stand out!</h1>
+        <h1 className="text-md-center text-start gradient-text">What makes our tool stand out!</h1>
         <div className="row gx-5 align-items-center mt-5">
           <div className="col-md-6 col-12">
           <div className="">
@@ -29,7 +29,7 @@ const Section3 = () => {
           </div>
 
           <div className="col-md-6 col-12 mt-4">
-            <div className="gradient-text ">
+            <div className="gradient-text fw-medium " style={{fontSize:"28px"}}>
               Dashboard Reports
             </div>
             <h5 style={{ color: 'rgb(68, 125, 188)' }}>

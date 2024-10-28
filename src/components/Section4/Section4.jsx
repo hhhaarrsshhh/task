@@ -15,8 +15,8 @@ const Section3 = () => {
         `}
       </style>
       <div className="container px-4" style={{ marginTop: '60px' }}>
-        <h1 className="text-center gradient-text fs-1 display-1">What makes our tool special?</h1>
-        <div className="text-center fs-5 fw-semibold">
+        <h1 className="text-md-center text-start gradient-text fs-1 display-1">What makes our tool special?</h1>
+        <div className="text-md-center text-start fs-5 fw-semibold">
           T-rack has empowered over 7,500 organizations by delivering<br />
           customer-driven knowledge management solutions. Here’s why we stand out
         </div>
